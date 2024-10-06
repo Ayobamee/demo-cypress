@@ -25,6 +25,8 @@ class LoginPage {
     this.pageElements.passwordInputField().type(correctPassword);
   }
 
+  //This method is to ensure that user can click the login button
+
   clickLoginBtn() {
     this.pageElements.loginBtn().click();
   }
